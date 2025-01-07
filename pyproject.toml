@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "speckler"
+requires-python = ">= 3.10"
+version = "0.0.1"
+dependencies = [
+  "numpy",
+  "scipy",
+  "matplotlib",
+]
+description = "Python library for speckle simulation"
+
+[project.urls]
+Repository = "https://github.com/icyveins7/speckler"
